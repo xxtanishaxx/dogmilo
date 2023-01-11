@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 30%;
+}
+
+.right{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    transition: 1s;
+}
+
+.right a:hover{
+    color: orange;
+}
+
+.right button{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.right button:hover{
+    background-color: darkblue;
+    
+}
+
+.banner{
+    height: 55vh;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.Wd_ieUfxwBXJZO2W3IezEwHaCt&pid=Api&P=0");
+    background-size: cover;
+    padding-left:100px;
+    width: 100%;
+    padding-top: 25vh;
+}
+
+#started{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.play{
+    margin-left:20px;
+    margin-top: 30px;
+}
+
+.paw{
+    height: 54px;
+    width: 43px;
+}
+
+.lorem{
+    background-color: blue;
+    padding-left: 700px;
+    font-size: 18px;
+    font-family: 'Jost';
+    font-weight: 400;
+    
+}
+
+#about{
+    font-size: 15px;
+    font-family: 'Jost';
+    color: #7F7045;
+    display: flex;
+}
+
+.abt{
+    display: flex;
+}
+
+#us{
+    font-size: 40px;
+    padding: 10px 0 7px 0;
+    font-family: 'Jost';
+}
+
+{
+
+}
+    
+
+#dog{
+    height: 58.39;
+    width: 84.39;
+}
+
+
